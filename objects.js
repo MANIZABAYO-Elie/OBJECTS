@@ -5,3 +5,4 @@ age  : 30
 
 
 }
+console.log(person1.firstName);
