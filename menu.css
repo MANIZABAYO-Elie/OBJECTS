@@ -37,12 +37,26 @@ ul {
 
 li {
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 .nav ul li {
 padding: 0 15px;
 font-size: 20px;
 font-weight: bold;
 }
-
+input{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(240, 255, 255);
+    border-radius: 5px;
+}
+.btn{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(243, 240, 255);
+    border-radius: 5px;
+    font-size: 15px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
     
