@@ -39,5 +39,10 @@ li {
     display: inline-block;
     margin-right: 40px;
 }
+.nav ul li {
+padding: 0 15px;
+font-size: 20px;
+font-weight: bold;
+}
 
     
