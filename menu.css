@@ -16,4 +16,28 @@ img {
 header{
     justify-content:space-between;
     display: flex;
+    background-color: rgba(255, 123, 0, 0.667);
+    padding: 10px;
+     
+  };
+
+header ul{
+    display:flex;
+    align-items: center;
 }
+ header li:hover{
+    color:aqua;
+
+} 
+ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+    
