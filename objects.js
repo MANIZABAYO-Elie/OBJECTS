@@ -21,3 +21,16 @@ const person2 ={
     }
     console.log(`${this.age}`);
     console.log(`${this.firstName} is cleaning the room`);
+ // objects and functions   
+const ages = { alice: 18, bob: 27 };
+
+function hasPerson(name) {
+  return name in ages;
+}
+
+function getAge(name) {
+  return ages[name];
+}
+
+hasPerson("alice"); // true
+getAge("toString"); // [Function: toString]
